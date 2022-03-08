@@ -6,9 +6,88 @@ clewisdev.com
 March 2022
 */
 
+/****** GLOBAL STYLES ******/
+
 body {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 3em; 
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 3rem;
+    line-height: 2rem;
+}
+
+div {
+    padding: 3rem;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 1em;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/****** CARD ******/
+
+.card {
+    width: 1080px;
+    background-color: hsl(0, 0%, 95%); ;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+}
+
+/****** COLUMNS ******/
+
+.sedans {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedansbutton {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvsbutton {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxrybutton {
+    color:hsl(179, 100%, 13%);
 }
 
 /*
