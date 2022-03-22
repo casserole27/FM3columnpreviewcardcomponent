@@ -96,6 +96,8 @@ button {
 
 
 /****** MEDIA QUERIES - RESPONSIVE DESIGN ******/
+/* changed width to small screen width
+changed flex-direction to row so that the info panels stack on top of each other*/
 
 @media screen and (max-width: 1000px) {
     .card {
