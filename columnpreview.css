@@ -103,6 +103,7 @@ button {
         background-color: hsl(0, 0%, 95%); 
         margin: 0 auto;
         margin-top: 4rem;
+        margin-bottom: 5rem;
         display: flex;
         flex-direction: column;
     }
