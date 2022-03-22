@@ -63,7 +63,7 @@ button {
 .sedans {
     display: flex;
     flex-direction: column;
-    background-color: hsl(31, 77%, 52%);
+    background-color: hsl(31, 94%, 41%);
     border-top-left-radius: .5rem;
     border-bottom-left-radius: .5rem;
 }
